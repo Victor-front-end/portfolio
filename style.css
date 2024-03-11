@@ -1,0 +1,147 @@
+/*font */
+@import url('https://fonts.googleapis.com/css?family=Sofadi%20One:700|Sofadi%20One:400');
+@import url('https://fonts.googleapis.com/css?family=Judson:700|Judson:400');
+  /* font-family: 'Sofadi One'; */
+  /* font-family: 'Judson'; */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body */
+
+.contenair-body{
+    background-color: #1B1A17;
+}
+.Portfolio{
+    color: #CBB99F;
+    font-family: 'Sofadi One';
+}
+.nav-link{
+    font-family: 'Sofadi One';
+    color: #E8E2D9;
+    position: relative;
+}
+.nav-link::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #696256;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  .nav-link:hover::before {
+    transform: scaleX(1);
+  }
+.hr-modif{
+    border-color: #696256;
+}
+.Modif-letters{
+    color: #CBB99F;
+    text-shadow:
+    0 0 42px #696256,
+    0 0 82px #CBB99F,
+    0 0 92px #696256,
+    0 0 102px #CBB99F,
+    0 0 151px #696256,
+    0 0 151px #CBB99F;
+
+}
+.H2-présentation{
+    color: #E8E2D9;
+    font-family: 'Judson';
+}
+.Modif-my-skills{
+    color: #CBB99F;
+    font-family: 'Judson';
+    text-shadow: 0 4px 0px #696256;
+
+}
+.img-présentation{
+    border-radius: 70px;
+    height: 440px;
+    opacity: 0.7;
+    box-shadow: 0 0 20px 10px #696256;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    animation: Animationshadow 0.9s infinite ease-in-out;
+}
+/* seconde page */
+.seconde-page {
+    background-color: #1B1A17;
+}
+@keyframes Animationshadow {
+    from {
+    box-shadow: 0 0 20px 10px #696256; 
+    box-shadow: 0 0 20px 10px #CBB99F;
+    }
+    to {
+        box-shadow: 0 0 20px 10px #CBB99F;
+        box-shadow: 0 0 20px 10px #696256; 
+    }
+}
+
+
+/* project */
+.Modif-project{
+   color: #CBB99F; 
+   text-shadow: 0 4px 0px #696256;
+}
+.Project-items{
+    background-color:#2D2B26 ;
+    box-shadow: 0 0 20px 5px #CBB99F;
+}
+
+/*  */
+.Project-voyage{
+    transition-duration: 0.5s;
+    height: 220px;
+}
+.Project-voyage:hover{
+    transition-duration: 0.5s;
+    transition: 0.4s;
+    opacity: 0.02;
+}
+.texte-voyage{
+    color: #E8E2D9;
+    font-family: 'Judson';
+    display: none;
+    transition-duration: 0.4s;
+}
+.Project-items:hover .texte-voyage{
+    display: block;
+    transition-duration: 0.4s;
+}
+/*  */
+.Project-tailwind{
+    height: 220px;
+    transition-duration: 0.5s;
+}
+.Project-tailwind:hover{
+    transition-duration: 0.5s;
+    transition: 0.4s;
+    opacity: 0.02;
+}
+.texte-project2{
+    color: #E8E2D9;
+    font-family: 'Judson';
+    display: none;
+    transition-duration: 0.4s;
+}
+
+
+/*  */
+.Project-galaxie{
+    height: 220px;
+    transition-duration: 0.5s;
+}
+.Project-galaxie:hover{
+    transition-duration: 0.5s;
+    transition: 0.4s;
+    opacity: 0.02;
+}

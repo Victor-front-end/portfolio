@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+
+<body>
+    <div class="contenair-body h-svh">
+        <nav class="navbar pt-2 flex w-full items-center justify-end pr-40 pt-8">
+            <h2 class="Portfolio text-2xl  ml-16 w-40 absolute left-0">Portfolio</h2>
+            <div class="nav-items flex justify-end list-none space-x-24  ">
+                <li class="nav-link cursor-pointer">Home<a href="#"></a></li>
+                <li class="nav-link cursor-pointer">Projects<a href="#"></a></li>
+                <li class="nav-link cursor-pointer">Contact<a href="#"></a></li>
+                <li class="nav-link cursor-pointer">About<a href="#"></a></li>
+            </div>
+        </nav>
+        <hr class="hr-modif w-1/2 mt-20">
+        <section class="section-présentation text-5xl  ml-16 mt-40">
+            <h2 class="H2-présentation">Hello my name is <span class="Modif-letters">Victor</span>, I am a beginner <br>
+                in <span class="Modif-letters">web dev</span>, I love coding and <br> solving problems. </h2>
+            <img class="img-présentation absolute right-0 mr-20 top-40" src="frameworks-dev-portageo-1770x1181.jpeg"
+                alt="">
+        </section>
+        <section class="section-skill  mb-20 absolute bottom-0 w-full ">
+            <h2 class="Modif-my-skills flex justify-center text-3xl  cursor-pointer">MY SKILLS</h2>
+            <div class="Skill list-none flex space-x-14  justify-center mt-8">
+                <li><box-icon name='html5' type='logo' color='#38352e' size="60px"
+                        style="box-shadow: 0px 0px 10px #CBB99F;"></box-icon></li>
+                <li><box-icon name='css3' type='logo' color='#38352e' size="60px"
+                        style="box-shadow: 0px 0px 10px #CBB99F;"></box-icon></li>
+                <li><box-icon name='tailwind-css' type='logo' color='#38352e' size="60px"
+                        style="box-shadow: 0px 0px 10px #CBB99F;"></box-icon></li>
+                <li><box-icon name='javascript' type='logo' color='#38352e' size="60px"
+                        style="box-shadow: 0px 0px 10px #CBB99F;"></box-icon></li>
+            </div>
+        </section>
+    </div>
+    <section class="seconde-page h-svh ">
+        <hr class="hr-modif">
+        <h2 class="Modif-project text-2xl flex justify-center pt-8">MY PROJECTS</h2>
+        <div class="Boite-Project list-none flex mt-8 space-x-32 justify-center">
+            <li class="Project-items relative cursor-pointer "><img class="Project-voyage" src="img/Project-voyage.PNG"
+                    alt="">
+                <h2 class="texte-voyage absolute top-0 m-8"> This project was created in full html and css, there are
+                    still 2 pages to finish, you can still view the project by clicking on it.</h2>
+            </li>
+            <li class="Project-items  cursor-pointer "><img class="Project-tailwind" src="img/Project-2.PNG" alt="">
+                <h2 class="texte-project2 absolute">This project was created in full Tailwind</h2>
+            </li>
+            <li class="Project-items  cursor-pointer "><img class="Project-galaxie" src="img/project-galaxie.PNG"
+                    alt=""></li>
+        </div>
+    </section>
+</body>
+
+</html>
