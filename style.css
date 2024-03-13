@@ -72,14 +72,15 @@ li.nav-link {
 }
 
 .Modif-my-skills {
-    animation: animationSkill 1s ease-in-out ;
+    animation: animationSkill 1s ease-in-out;
     color: #CBB99F;
     font-family: 'Sofadi One';
     text-shadow: 0 4px 0px #696256;
 
 }
+
 .Skill-img {
-    animation: animationSkill 1.5s ease-in-out ;
+    animation: animationSkill 1.5s ease-in-out;
 }
 
 .img-présentation {
@@ -297,6 +298,7 @@ li.nav-link {
         opacity: 1;
     }
 }
+
 @keyframes animationSkill {
     from {
         transform: translateY(500px);
@@ -308,16 +310,19 @@ li.nav-link {
         opacity: 1;
     }
 }
-@keyframes AnimationRectangle{
+
+@keyframes AnimationRectangle {
     form {
-        rotate: 0deg; 
+        rotate: 0deg;
         rotate: 360deg;
     }
-    to{
+
+    to {
         rotate: 0deg;
         rotate: 360deg;
     }
 }
+
 .rectangle3:before {
     content: "";
     background: linear-gradient(45deg,
@@ -343,6 +348,7 @@ li.nav-link {
     transition: opacity 0.3s ease-in-out;
     border-radius: 15px;
 }
+
 .rectangle19:before {
     content: "";
     background: linear-gradient(45deg,
@@ -364,10 +370,11 @@ li.nav-link {
     -webkit-filter: blur(5px);
     width: calc(100% + 4px);
     height: calc(100% + 4px);
-    animation: glowing-button-85 20s linear infinite;
+    animation: glowing-button-85 15s linear infinite;
     transition: opacity 0.3s ease-in-out;
     border-radius: 15px;
 }
+
 .rectangle18:before {
     content: "";
     background: linear-gradient(45deg,
@@ -393,6 +400,7 @@ li.nav-link {
     transition: opacity 0.3s ease-in-out;
     border-radius: 15px;
 }
+
 .rectangle17:before {
     content: "";
     background: linear-gradient(45deg,
@@ -418,6 +426,7 @@ li.nav-link {
     transition: opacity 0.3s ease-in-out;
     border-radius: 15px;
 }
+
 .rectangle16:before {
     content: "";
     background: linear-gradient(45deg,
@@ -443,6 +452,7 @@ li.nav-link {
     transition: opacity 0.3s ease-in-out;
     border-radius: 15px;
 }
+
 .rectangle15:before {
     content: "";
     background: linear-gradient(45deg,
@@ -468,6 +478,7 @@ li.nav-link {
     transition: opacity 0.3s ease-in-out;
     border-radius: 15px;
 }
+
 .rectangle14:before {
     content: "";
     background: linear-gradient(45deg,
@@ -493,6 +504,7 @@ li.nav-link {
     transition: opacity 0.3s ease-in-out;
     border-radius: 15px;
 }
+
 .rectangle13:before {
     content: "";
     background: linear-gradient(45deg,
@@ -518,6 +530,7 @@ li.nav-link {
     transition: opacity 0.3s ease-in-out;
     border-radius: 15px;
 }
+
 .rectangle12:before {
     content: "";
     background: linear-gradient(45deg,
@@ -543,6 +556,7 @@ li.nav-link {
     transition: opacity 0.3s ease-in-out;
     border-radius: 15px;
 }
+
 .rectangle11:before {
     content: "";
     background: linear-gradient(45deg,
@@ -568,6 +582,7 @@ li.nav-link {
     transition: opacity 0.3s ease-in-out;
     border-radius: 15px;
 }
+
 .rectangle9:before {
     content: "";
     background: linear-gradient(45deg,
@@ -593,6 +608,7 @@ li.nav-link {
     transition: opacity 0.3s ease-in-out;
     border-radius: 15px;
 }
+
 .rectangle8:before {
     content: "";
     background: linear-gradient(45deg,
@@ -618,6 +634,7 @@ li.nav-link {
     transition: opacity 0.3s ease-in-out;
     border-radius: 15px;
 }
+
 .rectangle7:before {
     content: "";
     background: linear-gradient(45deg,
@@ -643,6 +660,7 @@ li.nav-link {
     transition: opacity 0.3s ease-in-out;
     border-radius: 15px;
 }
+
 .rectangle6:before {
     content: "";
     background: linear-gradient(45deg,
@@ -668,6 +686,7 @@ li.nav-link {
     transition: opacity 0.3s ease-in-out;
     border-radius: 15px;
 }
+
 .rectangle5:before {
     content: "";
     background: linear-gradient(45deg,
@@ -693,6 +712,7 @@ li.nav-link {
     transition: opacity 0.3s ease-in-out;
     border-radius: 15px;
 }
+
 .rectangle4:before {
     content: "";
     background: linear-gradient(45deg,
@@ -718,6 +738,7 @@ li.nav-link {
     transition: opacity 0.3s ease-in-out;
     border-radius: 15px;
 }
+
 .rectangle2:before {
     content: "";
     background: linear-gradient(45deg,
@@ -743,6 +764,7 @@ li.nav-link {
     transition: opacity 0.3s ease-in-out;
     border-radius: 15px;
 }
+
 .rectangle10:before {
     content: "";
     background: linear-gradient(45deg,
@@ -785,22 +807,23 @@ li.nav-link {
 
 
 
-  .rectangle2 {
-    animation:  AnimationRectangle 3s infinite ease-in-out;
-    
+.rectangle2 {
+    animation: AnimationRectangle 3s infinite ease-in-out;
+
     left: 50px;
     rotate: 45deg;
     width: 200px;
     height: 100px;
     background: #1B1A17;
     box-shadow: -1px 1px 6px 2px #696256,
-     -1px 1px 8px 2px #bda37f,
-     -1px 1px 6px 2px #696256,
-     -1px 1px 6px 2px #bda37f;
+        -1px 1px 8px 2px #bda37f,
+        -1px 1px 6px 2px #696256,
+        -1px 1px 6px 2px #bda37f;
 
-  }
-  .rectangle3 {
-    animation:  AnimationRectangle 3s infinite ease-in-out;
+}
+
+.rectangle3 {
+    animation: AnimationRectangle 3s infinite ease-in-out;
 
     left: 100px;
     rotate: 45deg;
@@ -808,13 +831,14 @@ li.nav-link {
     height: 100px;
     background: #1B1A17;
     box-shadow: -1px 1px 6px 2px #696256,
-     -1px 1px 8px 2px #bda37f,
-     -1px 1px 6px 2px #696256,
-     -1px 1px 6px 2px #bda37f;
+        -1px 1px 8px 2px #bda37f,
+        -1px 1px 6px 2px #696256,
+        -1px 1px 6px 2px #bda37f;
 
-  }
-  .rectangle4 {
-    animation:  AnimationRectangle 3s infinite ease-in-out;
+}
+
+.rectangle4 {
+    animation: AnimationRectangle 3s infinite ease-in-out;
 
     left: 200px;
     rotate: 45deg;
@@ -822,13 +846,14 @@ li.nav-link {
     height: 100px;
     background: #1B1A17;
     box-shadow: -1px 1px 6px 2px #696256,
-     -1px 1px 8px 2px #bda37f,
-     -1px 1px 6px 2px #696256,
-     -1px 1px 6px 2px #bda37f;
+        -1px 1px 8px 2px #bda37f,
+        -1px 1px 6px 2px #696256,
+        -1px 1px 6px 2px #bda37f;
 
-  }
-  .rectangle5 {
-    animation:  AnimationRectangle 3s infinite ease-in-out;
+}
+
+.rectangle5 {
+    animation: AnimationRectangle 3s infinite ease-in-out;
 
     left: 300px;
     rotate: 45deg;
@@ -836,13 +861,14 @@ li.nav-link {
     height: 100px;
     background: #1B1A17;
     box-shadow: -1px 1px 6px 2px #696256,
-     -1px 1px 8px 2px #bda37f,
-     -1px 1px 6px 2px #696256,
-     -1px 1px 6px 2px #bda37f;
+        -1px 1px 8px 2px #bda37f,
+        -1px 1px 6px 2px #696256,
+        -1px 1px 6px 2px #bda37f;
 
-  }
-  .rectangle6 {
-    animation:  AnimationRectangle 3s infinite ease-in-out;
+}
+
+.rectangle6 {
+    animation: AnimationRectangle 3s infinite ease-in-out;
 
     left: 400px;
     rotate: 45deg;
@@ -850,14 +876,14 @@ li.nav-link {
     height: 100px;
     background: #1B1A17;
     box-shadow: -1px 1px 6px 2px #696256,
-     -1px 1px 8px 2px #bda37f,
-     -1px 1px 6px 2px #696256,
-     -1px 1px 6px 2px #bda37f;
+        -1px 1px 8px 2px #bda37f,
+        -1px 1px 6px 2px #696256,
+        -1px 1px 6px 2px #bda37f;
 
-  }
+}
 
-  .rectangle7 {
-    animation:  AnimationRectangle 3s infinite ease-in-out;
+.rectangle7 {
+    animation: AnimationRectangle 3s infinite ease-in-out;
 
     left: 500px;
     rotate: 45deg;
@@ -865,13 +891,14 @@ li.nav-link {
     height: 100px;
     background: #1B1A17;
     box-shadow: -1px 1px 6px 2px #696256,
-     -1px 1px 8px 2px #bda37f,
-     -1px 1px 6px 2px #696256,
-     -1px 1px 6px 2px #bda37f;
+        -1px 1px 8px 2px #bda37f,
+        -1px 1px 6px 2px #696256,
+        -1px 1px 6px 2px #bda37f;
 
-  }
-  .rectangle8 {
-    animation:  AnimationRectangle 3s infinite ease-in-out;
+}
+
+.rectangle8 {
+    animation: AnimationRectangle 3s infinite ease-in-out;
 
     left: 600px;
     rotate: 45deg;
@@ -879,13 +906,14 @@ li.nav-link {
     height: 100px;
     background: #1B1A17;
     box-shadow: -1px 1px 6px 2px #696256,
-     -1px 1px 8px 2px #bda37f,
-     -1px 1px 6px 2px #696256,
-     -1px 1px 6px 2px #bda37f;
+        -1px 1px 8px 2px #bda37f,
+        -1px 1px 6px 2px #696256,
+        -1px 1px 6px 2px #bda37f;
 
-  }
-  .rectangle9 {
-    animation:  AnimationRectangle 3s infinite ease-in-out;
+}
+
+.rectangle9 {
+    animation: AnimationRectangle 3s infinite ease-in-out;
 
 
     left: 700px;
@@ -894,13 +922,14 @@ li.nav-link {
     height: 100px;
     background: #1B1A17;
     box-shadow: -1px 1px 6px 2px #696256,
-     -1px 1px 8px 2px #bda37f,
-     -1px 1px 6px 2px #696256,
-     -1px 1px 6px 2px #bda37f;
+        -1px 1px 8px 2px #bda37f,
+        -1px 1px 6px 2px #696256,
+        -1px 1px 6px 2px #bda37f;
 
-  }
-  .rectangle10 {
-    animation:  AnimationRectangle 3s infinite ease-in-out;
+}
+
+.rectangle10 {
+    animation: AnimationRectangle 3s infinite ease-in-out;
 
     left: 800px;
     rotate: 45deg;
@@ -908,12 +937,14 @@ li.nav-link {
     height: 100px;
     background: #1B1A17;
     box-shadow: -1px 1px 6px 2px #696256,
-     -1px 1px 8px 2px #bda37f,
-     -1px 1px 6px 2px #696256,
-     -1px 1px 6px 2px #bda37f;
+        -1px 1px 8px 2px #bda37f,
+        -1px 1px 6px 2px #696256,
+        -1px 1px 6px 2px #bda37f;
 
-  }  .rectangle11 {
-    animation:  AnimationRectangle 3s infinite ease-in-out;
+}
+
+.rectangle11 {
+    animation: AnimationRectangle 3s infinite ease-in-out;
 
     left: 900px;
     rotate: 45deg;
@@ -921,12 +952,14 @@ li.nav-link {
     height: 100px;
     background: #1B1A17;
     box-shadow: -1px 1px 6px 2px #696256,
-     -1px 1px 8px 2px #bda37f,
-     -1px 1px 6px 2px #696256,
-     -1px 1px 6px 2px #bda37f;
+        -1px 1px 8px 2px #bda37f,
+        -1px 1px 6px 2px #696256,
+        -1px 1px 6px 2px #bda37f;
 
-  }  .rectangle12 {
-    animation:  AnimationRectangle 3s infinite ease-in-out;
+}
+
+.rectangle12 {
+    animation: AnimationRectangle 3s infinite ease-in-out;
 
     left: 1000px;
     rotate: 45deg;
@@ -934,12 +967,14 @@ li.nav-link {
     height: 100px;
     background: #1B1A17;
     box-shadow: -1px 1px 6px 2px #696256,
-     -1px 1px 8px 2px #bda37f,
-     -1px 1px 6px 2px #696256,
-     -1px 1px 6px 2px #bda37f;
+        -1px 1px 8px 2px #bda37f,
+        -1px 1px 6px 2px #696256,
+        -1px 1px 6px 2px #bda37f;
 
-  }  .rectangle13 {
-    animation:  AnimationRectangle 3s infinite ease-in-out;
+}
+
+.rectangle13 {
+    animation: AnimationRectangle 3s infinite ease-in-out;
 
     left: 1100px;
     rotate: 45deg;
@@ -947,13 +982,14 @@ li.nav-link {
     height: 100px;
     background: #1B1A17;
     box-shadow: -1px 1px 6px 2px #696256,
-     -1px 1px 8px 2px #bda37f,
-     -1px 1px 6px 2px #696256,
-     -1px 1px 6px 2px #bda37f;
+        -1px 1px 8px 2px #bda37f,
+        -1px 1px 6px 2px #696256,
+        -1px 1px 6px 2px #bda37f;
 
-  }
-  .rectangle14 {
-    animation:  AnimationRectangle 3s infinite ease-in-out;
+}
+
+.rectangle14 {
+    animation: AnimationRectangle 3s infinite ease-in-out;
 
     left: 1200px;
     rotate: 45deg;
@@ -961,13 +997,14 @@ li.nav-link {
     height: 100px;
     background: #1B1A17;
     box-shadow: -1px 1px 6px 2px #696256,
-     -1px 1px 8px 2px #bda37f,
-     -1px 1px 6px 2px #696256,
-     -1px 1px 6px 2px #bda37f;
+        -1px 1px 8px 2px #bda37f,
+        -1px 1px 6px 2px #696256,
+        -1px 1px 6px 2px #bda37f;
 
-  }
-  .rectangle15 {
-    animation:  AnimationRectangle 3s infinite ease-in-out;
+}
+
+.rectangle15 {
+    animation: AnimationRectangle 3s infinite ease-in-out;
 
     left: 1300px;
     rotate: 45deg;
@@ -975,13 +1012,14 @@ li.nav-link {
     height: 100px;
     background: #1B1A17;
     box-shadow: -1px 1px 6px 2px #696256,
-     -1px 1px 8px 2px #bda37f,
-     -1px 1px 6px 2px #696256,
-     -1px 1px 6px 2px #bda37f;
+        -1px 1px 8px 2px #bda37f,
+        -1px 1px 6px 2px #696256,
+        -1px 1px 6px 2px #bda37f;
 
-  }
-  .rectangle16 {
-    animation:  AnimationRectangle 3s infinite ease-in-out;
+}
+
+.rectangle16 {
+    animation: AnimationRectangle 3s infinite ease-in-out;
 
     left: 1400px;
     rotate: 45deg;
@@ -989,13 +1027,14 @@ li.nav-link {
     height: 100px;
     background: #1B1A17;
     box-shadow: -1px 1px 6px 2px #696256,
-     -1px 1px 8px 2px #bda37f,
-     -1px 1px 6px 2px #696256,
-     -1px 1px 6px 2px #bda37f;
+        -1px 1px 8px 2px #bda37f,
+        -1px 1px 6px 2px #696256,
+        -1px 1px 6px 2px #bda37f;
 
-  }
-  .rectangle17{
-    animation:  AnimationRectangle 3s infinite ease-in-out;
+}
+
+.rectangle17 {
+    animation: AnimationRectangle 3s infinite ease-in-out;
 
     left: 1500px;
     rotate: 45deg;
@@ -1003,49 +1042,65 @@ li.nav-link {
     height: 100px;
     background: #1B1A17;
     box-shadow: -1px 1px 6px 2px #696256,
-     -1px 1px 8px 2px #bda37f,
-     -1px 1px 6px 2px #696256,
-     -1px 1px 6px 2px #bda37f;
+        -1px 1px 8px 2px #bda37f,
+        -1px 1px 6px 2px #696256,
+        -1px 1px 6px 2px #bda37f;
 
-  }
-  .rectangle18 {
-    animation:  AnimationRectangle 3s infinite ease-in-out;
+}
 
-    left: 1600px;
-    rotate: 45deg;
-    width: 200px;
-    height: 100px;
-    background: #1B1A17;
-    box-shadow: -1px 1px 6px 2px #696256,
-     -1px 1px 8px 2px #bda37f,
-     -1px 1px 6px 2px #696256,
-     -1px 1px 6px 2px #bda37f;
+.contact {
 
-  }
-  .rectangle19 {
-    animation:  AnimationRectangle 3s infinite ease-in-out;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 
-    left: 1650px;
-    rotate: 45deg;
-    width: 200px;
-    height: 100px;
-    background: #1B1A17;
-    box-shadow: -1px 1px 6px 2px #696256,
-     -1px 1px 8px 2px #bda37f,
-     -1px 1px 6px 2px #696256,
-     -1px 1px 6px 2px #bda37f;
+.form {
 
-  }
-  .rectangle22 {
+    width: 600px;
 
-    left: 1650px;
-    rotate: 45deg;
-    width: 200px;
-    height: 100px;
-    background: #1B1A17;
-    box-shadow: -1px 1px 6px 2px #696256,
-     -1px 1px 8px 2px #bda37f,
-     -1px 1px 6px 2px #696256,
-     -1px 1px 6px 2px #bda37f;
+}
 
-  }
+form .input-box {
+    justify-content: space-between;
+    display: flex;
+}
+
+.input-box .input-field {
+    width: 48.5%;
+}
+
+.field .item {
+    width: 100%;
+    padding: 18px;
+    background: transparent;
+    border: 2px solid #bda37f;
+    outline: none;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #E8E2D9;
+    margin: 12px 0;
+}
+
+.field .item::placeholder {
+    color: #e8e2d99a;
+}
+
+form .textarea-field .item {
+    resize: none;
+}
+
+.field .error-txt {
+    font-size: 14px;
+    text-align: left;
+    color: red;
+    margin: -5px 0 10px;
+    display: none;
+}
+
+form .textarea-field .error-txt {
+    margin-top: -10px;
+}
+.button-85{
+    color: #e2d2bb;
+}
