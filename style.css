@@ -72,7 +72,7 @@ li.nav-link {
 }
 
 .Modif-my-skills {
-    animation: animationSkill 1s ease-in-out;
+    animation: animationSkill 0.7s ease-in-out;
     color: #CBB99F;
     font-family: 'Sofadi One';
     text-shadow: 0 4px 0px #696256;
@@ -80,7 +80,7 @@ li.nav-link {
 }
 
 .Skill-img {
-    animation: animationSkill 1.5s ease-in-out;
+    animation: animationSkill 1s ease-in-out;
 }
 
 .img-présentation {
@@ -110,73 +110,86 @@ li.nav-link {
     }
 }
 
+
+
+
+
+
+
+
+
 /* project */
 .Modif-project {
+    animation: AnimationProject 1s;
     color: #CBB99F;
     text-shadow: 0 4px 0px #696256;
     font-family: 'Sofadi One';
+    animation-timeline: view();
 }
 
 .Project-items {
+     animation: AnimationProjectslide 1s;
+    animation-timeline: view();
+    animation-range-start: cover 0%;
+    animation-range-end: contain 50%;
     background-color: #2D2B26;
     box-shadow: 0 0 20px 5px #CBB99F;
 }
 
 /*  */
 .Project-voyage {
+    animation: AnimationProjectslide 1s;
+    animation-timeline: view();
+    animation-range-start: cover 0%;
+    animation-range-end: contain 50%;
     transition-duration: 0.5s;
     height: 220px;
 }
 
-.Project-voyage:hover {
-    transition-duration: 0.5s;
-    transition: 0.4s;
-    opacity: 0.02;
-}
-
-.texte-voyage {
-    color: #E8E2D9;
-    font-family: 'Judson';
-    display: none;
-    transition-duration: 0.4s;
-}
-
-.Project-items:hover .texte-voyage {
-    display: block;
-    transition-duration: 0.4s;
-}
 
 /*  */
 .Project-tailwind {
+    animation: AnimationProjectslide 1s;
+    animation-timeline: view();
+    animation-range-start: cover 0%;
+    animation-range-end: contain 70%;
     height: 220px;
     transition-duration: 0.5s;
 }
-
-.Project-tailwind:hover {
-    transition-duration: 0.5s;
-    transition: 0.4s;
-    opacity: 0.02;
-}
-
-.texte-project2 {
-    color: #E8E2D9;
-    font-family: 'Judson';
-    display: none;
-    transition-duration: 0.4s;
-}
-
 
 /*  */
 .Project-galaxie {
+    animation: AnimationProjectslide 1s;
+    animation-timeline: view();
+    animation-range-start: cover 0%;
+    animation-range-end: contain 90%;
     height: 220px;
     transition-duration: 0.5s;
 }
 
-.Project-galaxie:hover {
-    transition-duration: 0.5s;
-    transition: 0.4s;
-    opacity: 0.02;
+@keyframes AnimationProject {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
+
+@keyframes AnimationProjectslide {
+    from {
+        transform: translateY(500px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+
 
 /* contact page */
 
@@ -319,7 +332,7 @@ li.nav-link {
 
     to {
         rotate: 0deg;
-        rotate: 360deg;
+        rotate: -360deg;
     }
 }
 
@@ -1047,18 +1060,36 @@ li.nav-link {
         -1px 1px 6px 2px #bda37f;
 
 }
-
+@keyframes contactslide{
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.title-contact{
+    animation: contactslide;
+    animation-timeline: view();
+    animation-range-start: cover 0%;
+    animation-range-end: contain 30%;
+}
 .contact {
+    animation: contactslide;
+    animation-timeline: view();
+    animation-range-start: cover 0%;
+    animation-range-end: contain 50%;
 
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
-.form {
-
+form {
     width: 600px;
-
+    padding: 20px;
+    box-shadow: inset rgba(203, 185, 159, 0.384) 0px 0px 20px 0px;
+    border-radius: 16px
 }
 
 form .input-box {
@@ -1101,6 +1132,8 @@ form .textarea-field .item {
 form .textarea-field .error-txt {
     margin-top: -10px;
 }
-.button-85{
+
+.button-85 {
     color: #e2d2bb;
+    box-shadow: 0 0 20px 5px #CBB99F;
 }
